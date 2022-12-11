@@ -253,7 +253,7 @@ img {
   color: #f0bf5f;
   margin-right: 12px;
 }
-.strelka-right {
+.arrow-right {
   width: 11px;
   height: 18px;
   background-image: url(../img/Rectangle2.png);
@@ -262,8 +262,8 @@ img {
   background-size: contain;
   margin-left: 5px;
 }
-.strelka-right-white {
-  background-image: url(../img/strelkawhite.png);
+.arrow-right-white {
+  background-image: url(../img/arrowwhite.png);
 }
 
 .list-item-1 {
@@ -396,69 +396,69 @@ img {
   color: #000000;
 }
 
-/* Preim */
-.preim-container {
+/* adv */
+.adv-container {
   margin-top: 70px;
   margin-bottom: 70px;
 }
-.preim-list {
+.adv-list {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
 }
-.preim-list-item {
+.adv-list-item {
   padding: 40px 42px 32px 45px;
   width: 276px;
   min-height: 276px;
   background-color: white;
   border-radius: 15px;
 }
-.preim-list-item:not(:nth-child(4n)) {
+.adv-list-item:not(:nth-child(4n)) {
   margin-right: 22px;
 }
-.preim-list-item:nth-child(-n + 4) {
+.adv-list-item:nth-child(-n + 4) {
   margin-bottom: 22px;
 }
-.preim-list-item-img {
+.adv-list-item-img {
   width: 67px;
   height: auto;
 }
-.preim-list-item-description {
+.adv-list-item-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 200%;
   color: #000000;
 }
 
-/* Razm */
-.razm-list {
+/* placing */
+.placing-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
 }
-.razm-list-item {
+.placing-list-item {
   width: 374px;
   min-height: 440px;
   padding-bottom: 45px;
   background-color: white;
   border-radius: 15px;
 }
-.razm-list-item:not(:nth-child(3n)) {
+.placing-list-item:not(:nth-child(3n)) {
   margin-right: 24px;
 }
-.razm-list-item:nth-child(-n + 6) {
+.placing-list-item:nth-child(-n + 6) {
   margin-bottom: 24px;
 }
-.razm-list-item-img {
+.placing-list-item-img {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-.razm-container {
+.placing-container {
   margin-bottom: 70px;
 }
-.razm-all {
+.placing-all {
   position: relative;
   background-image: url(../img/rall.jpg);
   background-position: left top;
@@ -466,7 +466,7 @@ img {
   background-size: contain;
   max-height: 440px;
 }
-.razm-all-link {
+.placing-all-link {
   position: absolute;
   display: flex;
   align-items: center;
@@ -478,20 +478,20 @@ img {
   bottom: 27px;
   cursor: pointer;
 }
-.razm-all-link-all {
+.placing-all-link-all {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
 }
-.razm-all-link:hover {
+.placing-all-link:hover {
   color: #cc9933;
 }
-.razm-all-link:hover .strelka-right-white {
+.placing-all-link:hover .arrow-right-white {
   background-image: url(../img/Rectangle2.png);
 }
-.razm-list-item-price {
+.placing-list-item-price {
   display: inline-block;
   margin-top: 24px;
   margin-left: 45px;
@@ -515,7 +515,7 @@ img {
   color: #000000;
   margin-left: 6px;
 }
-.razm-list-item-rating {
+.placing-list-item-rating {
   display: inline-block;
   margin-top: 24px;
   margin-left: auto;
@@ -527,9 +527,9 @@ img {
   margin-bottom: 16px;
 }
 
-.razm-list-item-descriptoin,
-.razm-list-item-location,
-.razm-list-item-rooms {
+.placing-list-item-descriptoin,
+.placing-list-item-location,
+.placing-list-item-rooms {
   margin-top: 0;
   margin-left: 45px;
   margin-bottom: 16px;
@@ -538,11 +538,11 @@ img {
   line-height: 16px;
   color: #000000;
 }
-.razm-list-item-location {
+.placing-list-item-location {
   color: #999999;
   margin-bottom: 20px;
 }
-.razm-list-item-rooms {
+.placing-list-item-rooms {
   display: inline-block;
   color: #cc9933;
   border: 1px solid #cc9933;
@@ -553,22 +553,22 @@ img {
   transition-duration: 0.5s;
   transition-timing-function: ease;
 }
-.razm-list-item-rooms:hover {
+.placing-list-item-rooms:hover {
   background-color: #cc9933;
   color: #ffffff;
 }
 
-/* Forma */
-.container-forma {
+/* Form */
+.container-form {
   margin-bottom: 70px;
 }
-.forma-content {
+.form-content {
   min-height: 256px;
   background-color: #e9e9e9;
   border-radius: 15px;
   padding: 45px 40px;
 }
-.forma-title {
+.form-title {
   margin: 0 0 20px 0;
 }
 .form {
